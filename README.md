@@ -6,7 +6,9 @@ Exploratory data analysis (EDA) methods to perform before performing data analys
 
 ### Preview the dataset
 ```df.head()```
+
 ```df.info()```
+
 ```df.describe()```
 ### Remove duplicates
 ### Explore data types
