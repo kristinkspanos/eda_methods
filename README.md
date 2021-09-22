@@ -2,7 +2,7 @@
 ## project goals
 *This project is a work in progress.*
 
-Exploratory data analysis (EDA) methods to perform before fitting a regression or classifier model.
+Exploratory data analysis (EDA) methods to perform before performing data analysis, or fitting a regression or classifier model. Exact methods used will vary based on the project goals.
 * Preview the dataset
 * Remove duplicates
 * Explore data types
