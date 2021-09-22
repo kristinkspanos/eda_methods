@@ -78,6 +78,7 @@ This project is inspired by the [Codecademy](https://www.codecademy.com/learn) a
 
 Other Resources:
 * [A One-Stop Shop for Principal Component Analysis](https://towardsdatascience.com/a-one-stop-shop-for-principal-component-analysis-5582fb7e0a9c)
+* [Transformations: and introduction](http://fmwww.bc.edu/repec/bocode/t/transint.html)
 
 ## built with
 * Python 3
