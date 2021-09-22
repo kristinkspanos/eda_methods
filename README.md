@@ -27,7 +27,8 @@ df.describe()
     * be replaced with a missing data type that Python can recognize, such as NaN
   * It's also possible that 0 values are intended to be missing values. This can be inspected by looking at the range of a variable or visualizing the distribution of a variable through a boxplot or other distribution chart. If a variable has zero values that don't make intuitive sense, it's possible that the zeros represent missing values.
 ### Categorize and/or bin data
-  * Inspect categorical variables to determine distribution among categories and trends in the data (using .valuecounts() or visualization tools such as boxplots)
+  * Inspect categorical variables to determine distribution among categories and trends in the data (using ```javascript
+df.value_counts()``` or visualization tools such as boxplots)
   * Categorical features with many levels are “expensive” to include in a regression model. We may want to consider:
     * deleting records of data with only a few observations
     * cobining categories with bew observations into larger categories of related variables
