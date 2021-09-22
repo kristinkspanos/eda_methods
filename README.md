@@ -65,6 +65,7 @@ df.value_counts()``` or visualization tools such as boxplots
       * transforming highly skewed data can produce better results in machine learning models  
   * inspect association between variables using scatterplots, pairplots, and/or correlation matrices                       
 
+## resources
 This project is inspired by the [Codecademy](https://www.codecademy.com/learn) articles:
 * EDA Prior to Fitting a Regression Model
 * EDA Prior to Fitting a Classification Model
