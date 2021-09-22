@@ -12,8 +12,8 @@ Exploratory data analysis (EDA) methods to perform before fitting a regression o
 * Python 3
 * Jupyter Notebook
 
-# data sources
-https://www.kaggle.com/cyaris/2016-mlb-season
+## data sources
+[2016 MLB Season](https://www.kaggle.com/cyaris/2016-mlb-season)
 
 ### Numeric Variables
 Field | Description
