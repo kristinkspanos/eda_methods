@@ -45,7 +45,7 @@ df.value_counts()``` or visualization tools such as boxplots
   * Categories with few observations can be combined and shown as 'other'
 * Binning numeric data
   * Binning is categorizing numeric data based on a range of data.  
-### Scaling and Normalization
+### Scaling and normalization
   * It is difficult to compare variables with vastly different scales, or create models using these variables. Variables can be re-scaled or noramlized so that each feature can be compared.
   * Scaling and normalization methods
     * Data centering
