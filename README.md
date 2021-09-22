@@ -27,7 +27,7 @@ Exploratory data analysis (EDA) methods to perform before performing data analys
 ### Categorize and/or bin data
   * Inspect categorical variables to determine distribution among categories and trends in the data (using ```
 df.value_counts()``` or visualization tools such as boxplots
-  * Categorical features with many levels are “expensive” to include in a regression model. We may want to consider:
+  * Categorical features with many levels are “expensive” to include in a regression model. Consider:
     * deleting records of data with only a few observations
     * cobining categories with bew observations into larger categories of related variables
   * Records can be categorized/coded differently depending on the trends in the analysis. For example, the variable "day of month" could be coded as:
