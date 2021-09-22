@@ -14,6 +14,7 @@ Exploratory data analysis (EDA) methods to perform before performing data analys
 ```df.drop_duplicates()```
 
 ### Explore data types
+  * ```df.dtypes```
   * Ensure all variables have the appropriate data type; change data types if necessary
   * Variables that should be floats or ints may be stored as objects because missing values could be stored as a str (i.e. 'x', '-', 'unknown'). In this case, replace the str values with 'NaN'.
 ### Inspect missing data
