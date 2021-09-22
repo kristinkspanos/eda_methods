@@ -34,12 +34,15 @@ Exploratory data analysis (EDA) methods to perform before performing data analys
 * Scaling and Normalization
   * It is difficult to compare variables with vastly different scales, or create models using these variables. Variables can be re-scaled or noramlized so that each feature can be compared.
   * Scaling and normalization methods
+    * Data centering
+      * Distance from mean: Subtract the mean of the variable from each data point so that the new mean is zero. This tells us how far above or below the mean each data point is.
+      * Percent distance from mean: Divide each data point by the mean of the variable so that the new mean is one. This tells us each data point's percent distance from the mean (i.e. a centered value of 1.07 is 7% above the mean).
     * min-max normalization
       * Minimum is transformed to zero, max is transformed to 1, all other values are transformed to a decimal between 0 and 1.
       * All features will have the same scale, but outliers will continue to skew the data
     * z-score normalization
       * If a value is exactly equal to the mean of all the values of the feature, it will be normalized to 0. If it is below the mean, it will be a negative number, and if it is above the mean it will be a positive number. 
-      * Handles outliers, but does not produce normalized data with the exact same scale.
+      * Handles outliers, but does not produce normalized data with the exact same scale. 
 * Outliers
   * inspect data for outliers using visualization tools such as scatterplots or boxplots
 * Distributions and associations
