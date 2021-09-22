@@ -5,6 +5,10 @@
 Exploratory data analysis (EDA) methods to perform before performing data analysis, or fitting a regression or classifier model. Exact methods used will vary based on the project goals.
 
 ### Preview the dataset
+```javascript
+df.head()
+```
+
 ### Remove duplicates
 ### Explore data types
   * Ensure all variables have the appropriate data type; change data types if necessary
