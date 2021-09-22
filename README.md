@@ -83,8 +83,6 @@ Other Resources:
 
 ## data sources
 [2016 MLB Season (Kaggle)](https://www.kaggle.com/cyaris/2016-mlb-season)
-
-### Numeric Variables
 *Note: a subset of the full dataset is used for this analysis*
 
 Field | Description
