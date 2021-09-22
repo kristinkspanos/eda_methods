@@ -28,7 +28,7 @@ df.describe()
   * It's also possible that 0 values are intended to be missing values. This can be inspected by looking at the range of a variable or visualizing the distribution of a variable through a boxplot or other distribution chart. If a variable has zero values that don't make intuitive sense, it's possible that the zeros represent missing values.
 ### Categorize and/or bin data
   * Inspect categorical variables to determine distribution among categories and trends in the data (using ```
-df.value_counts()``` or visualization tools such as boxplots)
+df.value_counts()``` or visualization tools such as boxplots
   * Categorical features with many levels are “expensive” to include in a regression model. We may want to consider:
     * deleting records of data with only a few observations
     * cobining categories with bew observations into larger categories of related variables
@@ -37,9 +37,9 @@ df.value_counts()``` or visualization tools such as boxplots)
     * nominal, if the value rises and falls throughout the month
     * categorized into day of the week groups, if the data follows trends such as rising on weekends and falling on weekdays
   * Methods for grouping and ordering categorical variables include:
-    * pd.Categorical() - stores data as type category and stores the order of the categories; useful for ordinal categorical varaibles
-    * df['column'].cat.codes - converts each category in a variable to an integer; allows numerical operations to be performed on the columns
-    * pd.get_dummies() - creates a new binary variable for each category within the original variable
+    * ```pd.Categorical()``` - stores data as type category and stores the order of the categories; useful for ordinal categorical varaibles
+    * ```df['column'].cat.codes``` - converts each category in a variable to an integer; allows numerical operations to be performed on the columns
+    * ```pd.get_dummies()``` - creates a new binary variable for each category within the original variable
       * useful in cases where it doesn't make sense to assign numbers to variables and therefore create the appearance of an order between the variables, or in cases where we don't want to assume equal spacing between categories
       * be careful using this method with a large number of categories, as a new variable will be created for each category
 * Combining categories
