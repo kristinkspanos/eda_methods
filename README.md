@@ -60,10 +60,16 @@ This project is inspired by the [Codecademy](https://www.codecademy.com/learn) a
 [2016 MLB Season (Kaggle)](https://www.kaggle.com/cyaris/2016-mlb-season)
 
 ### Numeric Variables
+*Note: a subset of the full dataset is used for this analysis*
+
 Field | Description
 ------------ | -------------
-x | y
-
+game_type | is the game during the day or at night
+day_of_week | what day of the week did the game occur
+temperature | average game temperature (Fahrenheit)
+sky | description of sky condition at the time of the game
+total_runs | total runs scored in the game
+attendance | total game attendence
 ## acknowledgements
 * [Codecademy Data Scientist Skill Path](https://www.codecademy.com/learn)
 * [Kaggle](https://www.kaggle.com/cyaris/2016-mlb-season)
