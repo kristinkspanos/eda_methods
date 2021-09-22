@@ -17,7 +17,7 @@ Exploratory data analysis (EDA) methods to perform before performing data analys
     * be replaced with an imputed value
     * be replaced with a missing data type that Python can recognize, such as NaN
   * It's also possible that 0 values are intended to be missing values. This can be inspected by looking at the range of a variable or visualizing the distribution of a variable through a boxplot or other distribution chart. If a variable has zero values that don't make intuitive sense, it's possible that the zeros represent missing values.
-* Categorize and/or bin data
+### Categorize and/or bin data
   * Inspect categorical variables to determine distribution among categories and trends in the data (using .valuecounts() or visualization tools such as boxplots)
   * Categorical features with many levels are “expensive” to include in a regression model. We may want to consider:
     * deleting records of data with only a few observations
@@ -37,7 +37,7 @@ Exploratory data analysis (EDA) methods to perform before performing data analys
   * Categories with few observations can be combined and shown as 'other'
 * Binning numeric data
   * Binning is categorizing numeric data based on a range of data.  
-* Scaling and Normalization
+### Scaling and Normalization
   * It is difficult to compare variables with vastly different scales, or create models using these variables. Variables can be re-scaled or noramlized so that each feature can be compared.
   * Scaling and normalization methods
     * Data centering
@@ -49,9 +49,9 @@ Exploratory data analysis (EDA) methods to perform before performing data analys
     * z-score normalization
       * If a value is exactly equal to the mean of all the values of the feature, it will be normalized to 0. If it is below the mean, it will be a negative number, and if it is above the mean it will be a positive number. 
       * Handles outliers, but does not produce normalized data with the exact same scale. 
-* Outliers
+### Outliers
   * inspect data for outliers using visualization tools such as scatterplots or boxplots
-* Distributions and associations
+### Distributions and associations
   * inspect distribution of quantitative variables using histogram, boxpot, or other distribution plot
     * log transformation
       * transforming highly skewed data can produce better results in machine learning models  
